@@ -1,5 +1,7 @@
 const express = require('express');
 
+require('dotenv')
+
 const app = express();
 
 const myController = require('./controllers/ModelHandler');
